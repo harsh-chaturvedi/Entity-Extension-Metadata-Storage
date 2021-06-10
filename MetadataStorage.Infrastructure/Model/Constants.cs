@@ -5,6 +5,11 @@ namespace MetadataStorage.Infrastructure.Model
         public static class ErrorMessage
         {
             /// <summary>
+            /// The access denied
+            /// </summary>
+            public const string AccessDenied = "Access Denied !!";
+
+            /// <summary>
             /// Invalid parameter
             /// </summary>
             public const string InvalidParameter = "Invalid Paramater!";
@@ -115,8 +120,10 @@ namespace MetadataStorage.Infrastructure.Model
             /// </summary>
             public const string MetadataEntityNotFound = "Metadata entity could not be found or you do not have access.";
 
-
-
+            /// <summary>
+            /// The user not found
+            /// </summary>
+            public const string UserNotFound = "User data could not be found.";
         }
     }
 }
